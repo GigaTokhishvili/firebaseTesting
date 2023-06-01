@@ -62,9 +62,9 @@ function App(props) {
 
       <div>
         <input type="file" onChange={(e) => {
-          <button onClick={uploadImage}>upload</button>
           setPhoto(e.target.files[0])
         }}/>
+        <button className='button' onClick={uploadImage}>upload</button>
       </div>
 
         <div className="pics">
