@@ -74,13 +74,36 @@ button:focus-visible {
   align-items: center;
 }
 
-img {
-  width: 20%;
-}
+
 
 #whenSignedOut {
   position: absolute;
   top: 50px;
   left: 50px;
   background-color: black;
+}
+
+.deleteButton {
+  position: relative;
+  top: 10px;
+  right: 10px;
+  display: none;
+}
+
+.active {
+  display:block;
+}
+
+.pics {
+  height: 80%;
+  width: 100%;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  object-fit: cover;
+  width:60%;
+  height:100%;
 }
